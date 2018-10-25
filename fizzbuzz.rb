@@ -1,7 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-def fizzbuzz(int){
+def fizzbuzz(int)
   result = ""
   if (number % 3 == 0)
     result += "Fizz"
@@ -15,4 +15,4 @@ def fizzbuzz(int){
   end
   
   return result
-}
+end
